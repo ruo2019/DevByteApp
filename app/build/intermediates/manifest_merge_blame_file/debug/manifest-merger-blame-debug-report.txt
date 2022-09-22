@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2019 Google Inc.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.devbyteviewer"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:22:5-67
+26-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:22:22-64
+27
+28    <application
+28-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:24:5-41:19
+29        android:name="com.example.android.devbyteviewer.DevByteApplication"
+29-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:25:9-43
+30        android:allowBackup="true"
+30-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:26:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.7.0] C:\Users\ruo20\.gradle\caches\transforms-3\10de8840128db6384ad085e5c5ea1f65\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:27:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:28:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:29:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:30:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:31:9-40
+39        <activity
+39-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:33:9-40:20
+40            android:name="com.example.android.devbyteviewer.ui.DevByteActivity"
+40-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:33:19-53
+41            android:exported="true" >
+41-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:34:13-36
+42            <intent-filter>
+42-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:35:13-39:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:36:17-69
+43-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:36:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:38:17-77
+45-->C:\Users\ruo20\AndroidStudioProjects\RepositoryPattern-Starter\app\src\main\AndroidManifest.xml:38:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <service
+49-->[androidx.room:room-runtime:2.4.1] C:\Users\ruo20\.gradle\caches\transforms-3\2ccffb2e38779bc44a9b200a6d2e11cd\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+50            android:name="androidx.room.MultiInstanceInvalidationService"
+50-->[androidx.room:room-runtime:2.4.1] C:\Users\ruo20\.gradle\caches\transforms-3\2ccffb2e38779bc44a9b200a6d2e11cd\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+51            android:directBootAware="true"
+51-->[androidx.room:room-runtime:2.4.1] C:\Users\ruo20\.gradle\caches\transforms-3\2ccffb2e38779bc44a9b200a6d2e11cd\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+52            android:exported="false" />
+52-->[androidx.room:room-runtime:2.4.1] C:\Users\ruo20\.gradle\caches\transforms-3\2ccffb2e38779bc44a9b200a6d2e11cd\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+56            android:authorities="com.example.android.devbyteviewer.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\ruo20\.gradle\caches\transforms-3\121fc46dea617ef9644323df9ff2d2d0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ruo20\.gradle\caches\transforms-3\17df0cf6ff48bf17f8061558b54c6382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ruo20\.gradle\caches\transforms-3\17df0cf6ff48bf17f8061558b54c6382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\ruo20\.gradle\caches\transforms-3\17df0cf6ff48bf17f8061558b54c6382\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
